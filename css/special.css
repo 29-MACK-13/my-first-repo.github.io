@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #939c80;
+    color: #fff; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.logo img {
+    width: 8%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 150px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    color: #939c80;
+}
+
+.product-section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.guarantee {
+    margin-top: 20px;
+}
+
+.guarantee p {
+    font-style: italic;
+    text-align: center;
+}
+
+.guarantee img {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    height: auto;
+}
