@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #939c80;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #939c80;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    /* Styles for mobile */
+    .tablet, .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablet */
+    .mobile, .desktop {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Styles for desktop */
+    .mobile, .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+}
