@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cryptocurrency Comparison</h1>
+    <div>
+        <label>
+            <input type="checkbox" id="price-change"> Show Price Change
+        </label>
+        <label>
+            <input type="checkbox" id="sort-market-cap"> Sort by Market Cap
+        </label>
+        <label>
+            <input type="checkbox" id="favorite-crypto"> Show Only Favorite Cryptos
+        </label>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Price Change (24h)</th>
+                <th>Market Cap</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="crypto-list-body"></tbody>
+    </table>
+    <h2>Comparison List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Price Change (24h)</th>
+                <th>Market Cap</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="comparison-body"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
